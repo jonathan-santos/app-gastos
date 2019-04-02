@@ -18,6 +18,7 @@ module.exports = {
         port: 9000,
         hot: true,
         open: true,
-        contentBase: 'dist'
+        contentBase: 'dist',
+        historyApiFallback: true
     }
 }

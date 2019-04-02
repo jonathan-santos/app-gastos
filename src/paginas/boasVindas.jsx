@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 
 export default class BoasVindas extends React.Component {
     render() {
@@ -26,7 +27,7 @@ export default class BoasVindas extends React.Component {
 
                 <p>A partir daí é só começar a usar!</p>
                 
-                <a href="#">Continuar</a>
+                <a href="/boas-vindas/bananas">Continuar</a>
             </div>
         );
     }
