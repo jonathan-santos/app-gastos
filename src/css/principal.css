@@ -1,0 +1,48 @@
+.tela-principal {
+    color: white;
+}
+    .tela-principal .resumo, .tela-principal .mes {
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .tela-principal .resumo {
+        background-color: rgb(52, 152, 219);
+    }
+
+        .tela-principal .balanco-total, .tela-principal .investimento-total {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+    .tela-principal .meses {
+        background-color: magenta;
+        padding: 0.25rem 0;
+    }
+
+        .tela-principal .mes {
+            height: 15rem;
+            width: 17.5rem;
+            margin: 0.5rem;
+            background-color: white;
+            border-radius: 0.2rem;
+            box-sizing: border-box;
+        }
+
+            .tela-principal .mes .nome {
+                color: magenta;
+                font-weight: bold;
+            }
+
+            .tela-principal .mes .entrada-total, .tela-principal .mes .saida-total {
+                font-size: 2rem;
+                font-weight: bolder;
+                margin-bottom: 1rem;
+            }
+
+            .tela-principal .mes .ver-detalhes {
+                border-radius: 2rem;
+                border-color: magenta;
+                color: magenta;
+            }
